@@ -6,6 +6,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { IndividualPage } from '../pages/individual/individual';
+import { SocialManagerPage } from '../pages/social-manager/social-manager';
+import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
+import { MatchesPage } from '../pages/matches/matches';
+import { MessagesPage } from '../pages/messages/messages';
+import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -24,7 +30,12 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       // { title: 'List', component: ListPage },
-      { title: 'Individual', component: IndividualPage }
+      { title: 'Individual', component: IndividualPage },
+      { title: 'Social Manager', component: SocialManagerPage },
+      { title: 'Youtube Owners', component: YoutubeOwnerPage },
+      { title: 'Matches', component: MatchesPage },
+      { title: 'Messages', component: MessagesPage },
+      { title: 'Payment Gateway', component: PaymentGatewayPage },
     ];
 
   }

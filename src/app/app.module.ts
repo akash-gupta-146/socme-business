@@ -6,6 +6,11 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { IndividualPage } from '../pages/individual/individual';
+import { SocialManagerPage } from '../pages/social-manager/social-manager';
+import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
+import { MatchesPage } from '../pages/matches/matches';
+import { MessagesPage } from '../pages/messages/messages';
+import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,7 +20,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    IndividualPage
+    IndividualPage,
+    SocialManagerPage,
+    YoutubeOwnerPage,
+    MatchesPage,
+    MessagesPage,
+    PaymentGatewayPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +36,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    IndividualPage
+    IndividualPage,
+    SocialManagerPage,
+    YoutubeOwnerPage,
+    MatchesPage,
+    MessagesPage,
+    PaymentGatewayPage
   ],
   providers: [
     StatusBar,
