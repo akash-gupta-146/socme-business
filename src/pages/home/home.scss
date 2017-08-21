@@ -1,3 +1,162 @@
-page-home {
+ion-card:nth-child(1) .hexagon {
+  position: relative;
+  width: 50px; 
+  height: 28.87px;
+  background-color: #00aced;
+  margin: 14.43px 0;
+}
 
+ion-card:nth-child(1) .hexagon:before,
+ion-card:nth-child(1) .hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+ion-card:nth-child(1) .hexagon:before {
+  bottom: 100%;
+  border-bottom: 14.43px solid #00aced;
+}
+
+ion-card:nth-child(1) .hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 14.43px solid #00aced;
+}
+
+ion-card:nth-child(1) .hexagon ion-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+ion-card:nth-child(1) .div_content_right h5 {
+  color: #00aced;
+  font-weight: bolder;
+}
+
+ion-card:nth-child(1) .div_content_right ion-badge {
+ position: absolute;
+top: 17px;
+right: 23px;
+margin: 0;
+background-color: #00aced;
+}
+
+ion-card:nth-child(1) .item-inner {
+  padding-left: 10px;
+}
+
+// SECOND CARD
+ion-card:nth-child(2) .hexagon {
+  position: relative;
+  width: 50px; 
+  height: 28.87px;
+  background-color: #3b5998;
+  margin: 14.43px 0;
+}
+
+ion-card:nth-child(2) .hexagon:before,
+ion-card:nth-child(2) .hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+ion-card:nth-child(2) .hexagon:before {
+  bottom: 100%;
+  border-bottom: 14.43px solid #3b5998;
+}
+
+ion-card:nth-child(2) .hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 14.43px solid #3b5998;
+}
+
+ion-card:nth-child(2) .hexagon ion-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+ion-card:nth-child(2) .div_content_right h5 {
+  color: #3b5998;
+  font-weight: bolder;
+}
+
+ion-card:nth-child(2) .div_content_right ion-badge {
+ position: absolute;
+top: 17px;
+right: 23px;
+margin: 0;
+background-color: #3b5998;
+}
+
+ion-card:nth-child(2) .item-inner {
+  padding-left: 10px;
+}
+
+ion-list ion-list-header{
+  text-align: center;
+}
+
+ion-list ion-item ion-icon {
+  font-size: 5.2em;
+  color: #de3641;
+}
+ion-list ion-item p {
+  font-style: italic;
+  white-space: pre-line;
+}
+
+ion-list h2 {
+  color: #b2dff4;
+}
+
+ion-list h2.ang {
+  color: #de3641;
+}
+
+ion-list h2.ionic {
+  color: #4e8df7;
+}
+
+ion-list ion-item ion-badge {
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+
+ion-list ion-item ion-avatar div{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #b2dff4;
+  background-image: url(/assets/icon/logoa.png);
+  background-size: cover;
+}
+
+ion-content {
+  background-color: #f7f3f3 !important;
+}
+
+.div_header {
+  background: rgba(78, 86, 168, 0.53);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 17px;
+    font-weight: bolder;
 }
