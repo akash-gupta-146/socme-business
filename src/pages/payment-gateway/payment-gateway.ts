@@ -11,6 +11,10 @@ import { NavController } from 'ionic-angular';
       height: 270px;
       background-size: cover;
     }
+    .close-btn{
+          top: 25px !important;
+    position: absolute !important;
+    }
     `
   ]
 })
