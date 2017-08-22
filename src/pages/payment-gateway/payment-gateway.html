@@ -1,15 +1,21 @@
-<ion-header>
-  <ion-navbar color="none">
+<ion-header no-lines>
+  <ion-navbar color="none" no-lines>
     <button ion-button menuToggle class="close-btn">
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Business Influensers</ion-title>
+    
+    <!--<ion-icon name="logo-android" class="business-logo"></ion-icon>-->
+    <div class="div_top_headText">
+      <ion-icon name="logo-android" class="business-logo"></ion-icon>
+      <h5>Raynes Barnes</h5>
+      <h6>Product Designer</h6>
+    </div>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <ion-fab top right edge middle>
-    <button ion-fab color="danger"><ion-icon name="md-share"></ion-icon></button>
+<ion-content>
+  <ion-fab top right middle>
+    <button ion-fab color="secondary"><ion-icon name="md-share"></ion-icon></button>
     <ion-fab-list side="top">
       <button ion-fab color="primary"><ion-icon name="logo-vimeo"></ion-icon></button>
     </ion-fab-list>
@@ -23,5 +29,42 @@
       <button ion-fab color="dark"><ion-icon name="logo-twitter"></ion-icon></button>
     </ion-fab-list>
   </ion-fab>
+
+  <div class="div_main_text">
+    <h4>My Task</h4>
+    <i>March 2017</i>
+    <ul>
+      <li><div class="hexagon1"></div>
+        <a href="http://www.google.com">Catch up Brain</a>
+        <h6>Mobile Project</h6>
+        <span>5 pm</span>
+      </li>
+      <li><div class="hexagon2"></div>
+        <a href="http://www.google.com">Make New Icons</a>
+        <h6>Web App</h6>
+        <span>8 pm</span>
+      </li>
+      <li><div class="hexagon3"></div>
+        <a href="http://www.google.com">Design Exploration</a>
+        <h6>Company Website</h6>
+        <span>11 am</span>
+      </li>
+      <li><div class="hexagon4"></div>
+        <a href="http://www.google.com">Lunch with Mary</a>
+        <h6>Grill house</h6>
+        <span>7 pm</span>
+      </li>
+      <li><div class="hexagon2"></div>
+        <a href="http://www.google.com">Digital Product</a>
+        <h6>Reinvent Wheel</h6>
+        <span>8 pm</span>
+      </li>
+      <li><div class="hexagon3"></div>
+        <a href="http://www.google.com">Season Bash</a>
+        <h6>Enduring Value</h6>
+        <span>8 pm</span>
+      </li>
+    </ul>
+  </div>
 
 </ion-content>
