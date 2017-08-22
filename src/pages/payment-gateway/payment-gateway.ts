@@ -15,6 +15,9 @@ import { NavController } from 'ionic-angular';
           top: 25px !important;
     position: absolute !important;
     }
+.toolbar-background .toolbar-background-ios{
+  border-bottom:0px !important;
+}
     `
   ]
 })

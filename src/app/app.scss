@@ -14,3 +14,15 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.alpacaBackground{
+    background:url('/assets/icon/alpaka-background-blur.png');
+    background-size:cover;
+}
+.sidebar-background{
+    background: url('/assets/icon/alpaka-background-big.png');
+    background-size:cover;
+}
+.sidebar-top{
+    height:75px;
+    background:#b3dff3;
+}
