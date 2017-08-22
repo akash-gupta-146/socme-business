@@ -94,6 +94,7 @@ import { NavController } from 'ionic-angular';
       padding-top: 3px;
       padding-left: 20px;
     }
+<<<<<<< HEAD
 
     .div_main_text ul li span {
       position: absolute;
@@ -226,7 +227,9 @@ ion-content {
  .toolbar-background-ios{
    border-bottom: 0 !important;
  }
-
+.toolbar-background .toolbar-background-ios{
+  border-bottom:0px !important;
+}
     `
   ]
 })
