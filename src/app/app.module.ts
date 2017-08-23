@@ -15,6 +15,8 @@ import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Tab1 } from "../pages/social-manager/tab1-page";
+import { Tab2 } from "../pages/social-manager/tab2-page";
 
 @NgModule({
   declarations: [
@@ -23,7 +25,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     CompanyDetailPage,
     IndividualPage,
-    SocialManagerPage,
+    SocialManagerPage,Tab1,Tab2,
     YoutubeOwnerPage,
     MatchesPage,
     MessagesPage,
@@ -40,7 +42,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     CompanyDetailPage,
     IndividualPage,
-    SocialManagerPage,
+    SocialManagerPage,Tab1,Tab2,
     YoutubeOwnerPage,
     MatchesPage,
     MessagesPage,
