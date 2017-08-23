@@ -5,6 +5,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { CompanyDetailPage } from '../pages/company-detail/company-detail';
 import { IndividualPage } from '../pages/individual/individual';
 import { SocialManagerPage } from '../pages/social-manager/social-manager';
 import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
@@ -20,6 +21,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
+    CompanyDetailPage,
     IndividualPage,
     SocialManagerPage,
     YoutubeOwnerPage,
@@ -36,6 +38,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
+    CompanyDetailPage,
     IndividualPage,
     SocialManagerPage,
     YoutubeOwnerPage,

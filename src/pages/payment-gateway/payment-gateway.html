@@ -1,70 +1,62 @@
-<ion-header no-lines>
-  <ion-navbar color="none" no-lines>
-    <button ion-button menuToggle class="close-btn">
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    
-    <!--<ion-icon name="logo-android" class="business-logo"></ion-icon>-->
-    <div class="div_top_headText">
-      <ion-icon name="logo-android" class="business-logo"></ion-icon>
-      <h5>Raynes Barnes</h5>
-      <h6>Product Designer</h6>
-    </div>
+    <ion-title>Payment Gateway</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-fab top right middle>
-    <button ion-fab color="secondary"><ion-icon name="md-share"></ion-icon></button>
-    <ion-fab-list side="top">
-      <button ion-fab color="primary"><ion-icon name="logo-vimeo"></ion-icon></button>
-    </ion-fab-list>
-    <ion-fab-list side="bottom">
-      <button ion-fab color="secondary"><ion-icon name="logo-facebook"></ion-icon></button>
-    </ion-fab-list>
-    <ion-fab-list side="left">
-      <button ion-fab color="light"><ion-icon name="logo-googleplus"></ion-icon></button>
-    </ion-fab-list>
-    <ion-fab-list side="right">
-      <button ion-fab color="dark"><ion-icon name="logo-twitter"></ion-icon></button>
-    </ion-fab-list>
-  </ion-fab>
-
-  <div class="div_main_text">
-    <h4>My Task</h4>
-    <i>March 2017</i>
-    <ul>
-      <li><div class="hexagon1"></div>
-        <a href="http://www.google.com">Catch up Brain</a>
-        <h6>Mobile Project</h6>
-        <span>5 pm</span>
-      </li>
-      <li><div class="hexagon2"></div>
-        <a href="http://www.google.com">Make New Icons</a>
-        <h6>Web App</h6>
-        <span>8 pm</span>
-      </li>
-      <li><div class="hexagon3"></div>
-        <a href="http://www.google.com">Design Exploration</a>
-        <h6>Company Website</h6>
-        <span>11 am</span>
-      </li>
-      <li><div class="hexagon4"></div>
-        <a href="http://www.google.com">Lunch with Mary</a>
-        <h6>Grill house</h6>
-        <span>7 pm</span>
-      </li>
-      <li><div class="hexagon2"></div>
-        <a href="http://www.google.com">Digital Product</a>
-        <h6>Reinvent Wheel</h6>
-        <span>8 pm</span>
-      </li>
-      <li><div class="hexagon3"></div>
-        <a href="http://www.google.com">Season Bash</a>
-        <h6>Enduring Value</h6>
-        <span>8 pm</span>
-      </li>
-    </ul>
+  <div class="div_pay_head">
+    <img src="/assets/icon/paypal.png" class="animated bounceInDown">
   </div>
+<ion-list no-lines padding>
+<ion-grid>
+  <ion-row> 
+    <ion-col col-12>
+  <ion-item class="trans_item">
+<ion-icon name="mail" item-left> </ion-icon>
+<ion-label stacked>Email</ion-label>
+<ion-input type="text" placeholder="Email Id"></ion-input>
+</ion-item>
+    </ion-col>
 
+<ion-col col-12>
+<ion-item class="trans_item">
+<ion-icon name="card" item-left> </ion-icon>
+<ion-label stacked>Card Number</ion-label>
+<ion-input type="number" placeholder="Card Number"></ion-input>
+</ion-item>
+</ion-col>
+
+<ion-col col-6>
+  <ion-item class="trans_item">
+<ion-icon name="calendar" item-left> </ion-icon>
+<ion-label stacked>MM/YY</ion-label>
+<ion-input type="number" placeholder="MM/YY"></ion-input>
+</ion-item>
+</ion-col>
+
+<ion-col col-6>
+  <ion-item class="trans_item">
+<ion-icon name="closed-captioning" item-left> </ion-icon>
+<ion-label stacked>CVC</ion-label>
+<ion-input type="number" placeholder="CVC"></ion-input>
+</ion-item>
+</ion-col>
+
+<ion-col col-12>
+  <ion-item>
+  <ion-checkbox color="dark1" checked="true" class="md" item-left></ion-checkbox>
+  <ion-label>Remmber Me</ion-label>
+  </ion-item>
+</ion-col>
+
+<ion-col col-12>
+  <button ion-button block>Pay $10</button>
+</ion-col>
+</ion-row>
+</ion-grid>
+</ion-list>
 </ion-content>

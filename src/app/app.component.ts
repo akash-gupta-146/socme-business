@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { CompanyDetailPage } from '../pages/company-detail/company-detail';
 import { IndividualPage } from '../pages/individual/individual';
 import { SocialManagerPage } from '../pages/social-manager/social-manager';
 import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
@@ -30,6 +31,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       // { title: 'List', component: ListPage },
+      { title: 'Company Details', component: CompanyDetailPage },
       { title: 'Individual', component: IndividualPage },
       { title: 'Social Manager', component: SocialManagerPage },
       { title: 'Youtube Owners', component: YoutubeOwnerPage },
