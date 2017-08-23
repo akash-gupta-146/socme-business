@@ -13,6 +13,8 @@ import { MatchesPage } from '../pages/matches/matches';
 import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
+import { Tab1 } from "../pages/social-manager/tab1-page";
+import { Tab2 } from "../pages/social-manager/tab2-page";
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +34,7 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       // { title: 'List', component: ListPage },
       { title: 'Company Details', component: CompanyDetailPage },
-      { title: 'Social Manager', component: SocialManagerPage },
+      { title: 'Social Managers', component: SocialManagerPage },
       { title: 'Individual', component: IndividualPage },
       { title: 'Youtube Owners', component: YoutubeOwnerPage },
       { title: 'Matches', component: MatchesPage },
