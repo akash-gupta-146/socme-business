@@ -9,15 +9,13 @@
       </div>
     </ion-toolbar>
   </ion-header>
-
-  <ion-content class="sidebar-background">
+    <ion-content class="sidebar-background">
     <ion-list>
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" style="background: rgba(255, 255, 255, 0.52);">
         {{p.title}}
       </button>
     </ion-list>
   </ion-content>
-
 </ion-menu>
 
 <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
