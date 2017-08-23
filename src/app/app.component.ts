@@ -11,7 +11,7 @@ import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
 import { MatchesPage } from '../pages/matches/matches';
 import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
-
+import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
 
 @Component({
   templateUrl: 'app.html'
@@ -36,6 +36,7 @@ export class MyApp {
       { title: 'Matches', component: MatchesPage },
       { title: 'Messages', component: MessagesPage },
       { title: 'Payment Gateway', component: PaymentGatewayPage },
+      { title: 'Payment History', component: PaymentHistoryPage },
     ];
 
   }

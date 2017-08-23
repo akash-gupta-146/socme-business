@@ -11,6 +11,7 @@ import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
 import { MatchesPage } from '../pages/matches/matches';
 import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
+import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +26,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     YoutubeOwnerPage,
     MatchesPage,
     MessagesPage,
-    PaymentGatewayPage
+    PaymentGatewayPage,
+    PaymentHistoryPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     YoutubeOwnerPage,
     MatchesPage,
     MessagesPage,
-    PaymentGatewayPage
+    PaymentGatewayPage,
+    PaymentHistoryPage
   ],
   providers: [
     StatusBar,
