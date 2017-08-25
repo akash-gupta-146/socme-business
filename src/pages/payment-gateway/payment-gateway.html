@@ -3,10 +3,60 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Social Manager</ion-title>
+    <ion-title>Payment Gateway</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <div class="div_pay_head">
+    <img src="/assets/icon/paypal.png" class="animated bounceInDown">
+  </div>
+<ion-list no-lines padding>
+<ion-grid>
+  <ion-row> 
+    <ion-col col-12>
+  <ion-item class="trans_item">
+<ion-icon name="mail" item-left> </ion-icon>
+<ion-label stacked>Email</ion-label>
+<ion-input type="text" placeholder="Email Id"></ion-input>
+</ion-item>
+    </ion-col>
 
+<ion-col col-12>
+<ion-item class="trans_item">
+<ion-icon name="card" item-left> </ion-icon>
+<ion-label stacked>Card Number</ion-label>
+<ion-input type="number" placeholder="Card Number"></ion-input>
+</ion-item>
+</ion-col>
+
+<ion-col col-6>
+  <ion-item class="trans_item">
+<ion-icon name="calendar" item-left> </ion-icon>
+<ion-label stacked>MM/YY</ion-label>
+<ion-input type="number" placeholder="MM/YY"></ion-input>
+</ion-item>
+</ion-col>
+
+<ion-col col-6>
+  <ion-item class="trans_item">
+<ion-icon name="closed-captioning" item-left> </ion-icon>
+<ion-label stacked>CVC</ion-label>
+<ion-input type="number" placeholder="CVC"></ion-input>
+</ion-item>
+</ion-col>
+
+<ion-col col-12>
+  <ion-item>
+  <ion-checkbox color="dark1" checked="true" class="md" item-left></ion-checkbox>
+  <ion-label>Remmber Me</ion-label>
+  </ion-item>
+</ion-col>
+
+<ion-col col-12>
+  <button ion-button block>Pay $10</button>
+</ion-col>
+</ion-row>
+</ion-grid>
+</ion-list>
 </ion-content>
