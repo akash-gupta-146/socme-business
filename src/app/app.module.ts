@@ -23,6 +23,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Tab1 } from "../pages/social-manager/tab1-page";
 import { Tab2 } from "../pages/social-manager/tab2-page";
+import { RequestPage } from "../pages/request/request";
+import { RequestDetailPage } from "../pages/request-detail/request";
+import { PremiumPage } from "../pages/premium/premium";
+import { RatingPage } from "../pages/rating/rating";
+import { RateFormPage } from "../pages/rate-form/rate-form";
 
 @NgModule({
   declarations: [
@@ -41,6 +46,11 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     PaymentGatewayPage,
     PaymentHistoryPage,
     ProfilePage,
+    RequestPage,
+    RequestDetailPage ,
+    PremiumPage,
+    RatingPage,
+    RateFormPage
   ],
   imports: [
     BrowserModule,
@@ -62,7 +72,12 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     MessagesPage,
     PaymentGatewayPage,
     PaymentHistoryPage,
-    ProfilePage
+    ProfilePage,
+    RequestPage,
+    RequestDetailPage,
+    PremiumPage,
+    RatingPage,
+    RateFormPage
   ],
   providers: [
     StatusBar,

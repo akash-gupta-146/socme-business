@@ -19,6 +19,11 @@ import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
 import { Tab1 } from "../pages/social-manager/tab1-page";
 import { Tab2 } from "../pages/social-manager/tab2-page";
+import { RequestPage } from "../pages/request/request";
+import { RequestDetailPage } from "../pages/request-detail/request";
+import { PremiumPage } from "../pages/premium/premium";
+import { RatingPage } from "../pages/rating/rating";
+import { RateFormPage } from "../pages/rate-form/rate-form";
 
 @Component({
   templateUrl: 'app.html'
@@ -41,7 +46,12 @@ export class MyApp {
       { title: 'Youtube Owners', component: YoutubeOwnerPage },      
       { title: 'Youtube Owner Details', component: YoutubeOwnerDetailPage }, 
       { title: 'Messages', component: MessagesPage },
+      { title: 'Requests', component: RequestPage }, 
+      { title: 'Requests Details', component: RequestDetailPage }, 
+      { title: 'Rate', component: RatingPage },  
+      { title: 'Rate Form', component: RateFormPage },                 
       { title: 'Payment History', component: PaymentHistoryPage },
+      { title: 'Become Premium', component: PremiumPage },      
       { title: 'Profile', component: ProfilePage },      
       // { title: 'List', component: ListPage },
       // { title: 'Company Details', component: CompanyDetailPage },
