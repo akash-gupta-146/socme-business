@@ -3,7 +3,59 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'youtube-owner',
-  templateUrl: 'youtube-owner.html'
+  templateUrl: 'youtube-owner.html',
+  styles: [`
+  
+    .div_youtube span {
+      position: relative;
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-image: url("/assets/icon/video.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .div_youtube span a {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url("/assets/icon/6.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .div_my_you {
+      position: absolute;
+      top: 11px;
+      left: 130px;
+    }
+
+    .div_my_you i {
+      display: inline-block;
+      width: 60px;
+      height: 35px;
+      background-image: url("/assets/icon/sub.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      text-align: left;
+    }
+
+    .div_my_you h6 {
+      font-size: 12px;
+      text-align: left;
+      color: red;
+    }
+
+    .div_my_you h4 {
+      font-weight: 800;
+    }
+
+  `]
 })
 export class YoutubeOwnerPage {
 
