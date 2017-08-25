@@ -13,6 +13,7 @@ import { MatchesPage } from '../pages/matches/matches';
 import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
+import { SocialInfluencerPage } from '../pages/social-influencer/social-influencer';
 import { Tab1 } from "../pages/social-manager/tab1-page";
 import { Tab2 } from "../pages/social-manager/tab2-page";
 
@@ -32,6 +33,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
+      { title: 'Social Influencer', component: SocialInfluencerPage },
       // { title: 'List', component: ListPage },
       { title: 'Company Details', component: CompanyDetailPage },
       { title: 'Social Managers', component: SocialManagerPage },
