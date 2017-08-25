@@ -4,6 +4,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { SocialInfluencerPage } from '../pages/social-influencer/social-influencer';
+import { SocialInfluencerDetailPage } from '../pages/social-influencer-detail/social-influencer-detail';
 import { ListPage } from '../pages/list/list';
 import { CompanyDetailPage } from '../pages/company-detail/company-detail';
 import { IndividualPage } from '../pages/individual/individual';
@@ -13,7 +15,6 @@ import { MatchesPage } from '../pages/matches/matches';
 import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
-import { SocialInfluencerPage } from '../pages/social-influencer/social-influencer';
 import { Tab1 } from "../pages/social-manager/tab1-page";
 import { Tab2 } from "../pages/social-manager/tab2-page";
 
@@ -34,6 +35,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Social Influencer', component: SocialInfluencerPage },
+      { title: 'Social Influencer Detail', component: SocialInfluencerDetailPage },
       // { title: 'List', component: ListPage },
       { title: 'Company Details', component: CompanyDetailPage },
       { title: 'Social Managers', component: SocialManagerPage },

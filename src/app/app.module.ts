@@ -14,6 +14,8 @@ import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
 import { SocialInfluencerPage } from '../pages/social-influencer/social-influencer';
+import { SocialInfluencerDetailPage } from '../pages/social-influencer-detail/social-influencer-detail';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,6 +28,7 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     HomePage,
     ListPage,
     SocialInfluencerPage,
+    SocialInfluencerDetailPage,
     CompanyDetailPage,
     IndividualPage,
     SocialManagerPage,Tab1,Tab2,
@@ -45,6 +48,7 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     HomePage,
     ListPage,
     SocialInfluencerPage,
+    SocialInfluencerDetailPage,
     CompanyDetailPage,
     IndividualPage,
     SocialManagerPage,Tab1,Tab2,
