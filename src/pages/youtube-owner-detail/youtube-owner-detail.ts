@@ -2,13 +2,10 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'individual',
-  templateUrl: 'individual.html',
-  styles: [`
-  
-  `]
+  selector: 'youtube-owner-detail',
+  templateUrl: 'youtube-owner-detail.html'
 })
-export class IndividualPage {
+export class YoutubeOwnerDetailPage {
 
   constructor(public navCtrl: NavController) {
 

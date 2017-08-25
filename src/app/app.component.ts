@@ -4,16 +4,19 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { SocialInfluencerPage } from '../pages/social-influencer/social-influencer';
+import { SocialInfluencerDetailPage } from '../pages/social-influencer-detail/social-influencer-detail';
+import { ProfilePage } from '../pages/profile/profile';
 import { ListPage } from '../pages/list/list';
 import { CompanyDetailPage } from '../pages/company-detail/company-detail';
 import { IndividualPage } from '../pages/individual/individual';
 import { SocialManagerPage } from '../pages/social-manager/social-manager';
 import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
+import { YoutubeOwnerDetailPage } from '../pages/youtube-owner-detail/youtube-owner-detail';
 import { MatchesPage } from '../pages/matches/matches';
 import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
 import { PaymentHistoryPage } from '../pages/payment-history/payment-history';
-import { SocialInfluencerPage } from '../pages/social-influencer/social-influencer';
 import { Tab1 } from "../pages/social-manager/tab1-page";
 import { Tab2 } from "../pages/social-manager/tab2-page";
 
@@ -34,15 +37,18 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Social Influencer', component: SocialInfluencerPage },
-      // { title: 'List', component: ListPage },
-      { title: 'Company Details', component: CompanyDetailPage },
-      { title: 'Social Managers', component: SocialManagerPage },
-      { title: 'Individual', component: IndividualPage },
-      { title: 'Youtube Owners', component: YoutubeOwnerPage },
-      { title: 'Matches', component: MatchesPage },
+      { title: 'Social Influencer Detail', component: SocialInfluencerDetailPage },
+      { title: 'Youtube Owners', component: YoutubeOwnerPage },      
+      { title: 'Youtube Owner Details', component: YoutubeOwnerDetailPage }, 
       { title: 'Messages', component: MessagesPage },
-      { title: 'Payment Gateway', component: PaymentGatewayPage },
       { title: 'Payment History', component: PaymentHistoryPage },
+      { title: 'Profile', component: ProfilePage },      
+      // { title: 'List', component: ListPage },
+      // { title: 'Company Details', component: CompanyDetailPage },
+      // { title: 'Social Managers', component: SocialManagerPage },
+      // { title: 'Individual', component: IndividualPage },
+      // { title: 'Matches', component: MatchesPage },
+      // { title: 'Payment Gateway', component: PaymentGatewayPage },
     ];
 
   }
