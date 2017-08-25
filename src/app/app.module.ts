@@ -5,10 +5,12 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { ProfilePage } from '../pages/profile/profile';
 import { CompanyDetailPage } from '../pages/company-detail/company-detail';
 import { IndividualPage } from '../pages/individual/individual';
 import { SocialManagerPage } from '../pages/social-manager/social-manager';
 import { YoutubeOwnerPage } from '../pages/youtube-owner/youtube-owner';
+import { YoutubeOwnerDetailPage } from '../pages/youtube-owner-detail/youtube-owner-detail';
 import { MatchesPage } from '../pages/matches/matches';
 import { MessagesPage } from '../pages/messages/messages';
 import { PaymentGatewayPage } from '../pages/payment-gateway/payment-gateway';
@@ -28,6 +30,7 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     HomePage,
     ListPage,
     SocialInfluencerPage,
+    YoutubeOwnerDetailPage,
     SocialInfluencerDetailPage,
     CompanyDetailPage,
     IndividualPage,
@@ -36,7 +39,8 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     MatchesPage,
     MessagesPage,
     PaymentGatewayPage,
-    PaymentHistoryPage
+    PaymentHistoryPage,
+    ProfilePage,
   ],
   imports: [
     BrowserModule,
@@ -48,6 +52,7 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     HomePage,
     ListPage,
     SocialInfluencerPage,
+    YoutubeOwnerDetailPage,
     SocialInfluencerDetailPage,
     CompanyDetailPage,
     IndividualPage,
@@ -56,7 +61,8 @@ import { Tab2 } from "../pages/social-manager/tab2-page";
     MatchesPage,
     MessagesPage,
     PaymentGatewayPage,
-    PaymentHistoryPage
+    PaymentHistoryPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,
