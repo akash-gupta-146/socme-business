@@ -37,8 +37,9 @@ import { NavController } from 'ionic-angular';
 
     .div_my_you i {
       display: inline-block;
-      width: 60px;
-      height: 35px;
+      max-width: 60px;
+      width: 100%;
+      height: 20px;
       background-image: url("/assets/icon/sub.png");
       background-size: contain;
       background-repeat: no-repeat;
