@@ -26,33 +26,47 @@ import { RatingPage } from "../pages/rating/rating";
 import { RateFormPage } from "../pages/rate-form/rate-form";
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  styles: [`
+  .sidebar-button{
+    background: rgba(105, 105, 105, 0.35);
+    color: white;
+  }
+  .sidebar-button:active{
+    color: #b3dff3;
+  }
+  .sidebar-header{
+    color: white;
+    height:180px;
+    box-shadow: 0px 2px 15px grey;
+  }
+  `]
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = HomePage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any, icon:any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'Social Influencer', component: SocialInfluencerPage },
-      { title: 'Social Influencer Detail', component: SocialInfluencerDetailPage },
-      { title: 'Youtube Owners', component: YoutubeOwnerPage },      
-      { title: 'Youtube Owner Details', component: YoutubeOwnerDetailPage }, 
-      { title: 'Messages', component: MessagesPage },
-      { title: 'Requests', component: RequestPage }, 
-      { title: 'Requests Details', component: RequestDetailPage }, 
-      { title: 'Rate', component: RatingPage },  
-      { title: 'Rate Form', component: RateFormPage },                 
-      { title: 'Payment History', component: PaymentHistoryPage },
-      { title: 'Become Premium', component: PremiumPage },      
-      { title: 'Profile', component: ProfilePage },      
+      { title: 'Home' , component: HomePage, icon:'home'},
+      { title: 'Social Influencer', component: SocialInfluencerPage, icon: 'contacts' },
+      { title: 'Social Influencer Detail', component: SocialInfluencerDetailPage, icon: 'contacts' },
+      { title: 'Youtube Owners', component: YoutubeOwnerPage, icon: 'logo-youtube' },      
+      { title: 'Youtube Owner Details', component: YoutubeOwnerDetailPage, icon: 'logo-youtube' }, 
+      { title: 'Messaging', component: MessagesPage, icon: 'mail' },
+      { title: 'Requests', component: RequestPage, icon: 'person-add' }, 
+      { title: 'Requests Details', component: RequestDetailPage, icon: 'person-add' }, 
+      { title: 'Rate', component: RatingPage, icon: 'star-half' },  
+      { title: 'Rate Form', component: RateFormPage, icon: 'star-half' },                 
+      { title: 'Payment History', component: PaymentHistoryPage, icon: 'logo-usd' },
+      { title: 'Become Premium', component: PremiumPage, icon: 'star' },      
+      { title: 'Profile', component: ProfilePage, icon: 'person' },      
       // { title: 'List', component: ListPage },
       // { title: 'Company Details', component: CompanyDetailPage },
       // { title: 'Social Managers', component: SocialManagerPage },

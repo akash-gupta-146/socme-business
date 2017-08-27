@@ -5,75 +5,78 @@ import { NavController } from 'ionic-angular';
   selector: 'social-influencer',
   templateUrl: 'social-influencer.html',
   styles: [`
+  .div_parent {
+  margin: 12px auto;
+  border-radius: 2px;
+  // border: 1px solid #9E9E9E;
+  height: 200px;
+  // width: calc(100% - 24px);
+  // font-size: 1.4rem;
+  // background: #f9fdff;
+  // -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  // box-shadow: 0 1px 50px rgba(0, 0, 0, 1.3);
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+}
 
-    .social-influ-main {
-      text-align: center;
-    }
+.div_parent .div_child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
 
-    .social-influ-main .div-social-influ span {
-      display: inline-block;
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      background-image: url("/assets/icon/nidhi.jpg");
-      margin: 10px auto 5px;
-    }
-
-    .social-influ-main .div-social-influ h4 {
-      font-size: 25px;
-      color: #2196F3;
-      margin: 0 auto;
-      font-family: serif;
-    }
-
-    .social-influ-main .div-social-influ h6 {
-      font-size: 15px;
-      color: #4CAF50;
-      margin: 0 auto;
-      font-family: serif;
-      font-style: italic;
-    }
-
-    .social-influ-main .div-social-influ .star-rating {
-      color: red;
-      margin-top: 10px;
-    }
-
-    .button-ios {
-      border-radius: 30px;
-      height: 30px;
-      margin: 20px auto;
-      width: 32%;
-      font-size: 11px;
-    }
-
-    .div-social-btn button:nth-child(1) {
-      background-color: #3b5998 !important;
-    }
-
-    .div-social-btn button:nth-child(2) {
-      background-color: #4dc247 !important;
-    }
-
-    .div-social-btn button:nth-child(3) {
-      background-color: #bb0000 !important;
-    }
-
-    .div-company-list2 span {
-      font-size: 18px !important;
-      font-weight: 700 !important;
-      color: brown !important;
-    }
-
-    .div-company-list2 i {
-      font-size: 13px !important;
-      font-weight: 200 !important;
-      color: grey !important;
-      float: right;
-    }
+.div_parent .div_child img{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  margin-top:10px;
+}
 
 
-  `]
+ion-col img{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  margin-top:10px;
+}
+
+.div_social {
+  display: inline-flex;
+}
+
+.div_social ion-icon {
+  margin-right: 15px;
+  text-align: center;
+}
+
+.div_social ion-icon:nth-child(1) {
+  color: #3b5998;
+}
+
+.div_social ion-icon:nth-child(2) {
+  color: #00aced;
+}
+
+.div_social ion-icon:nth-child(3) {
+  color: #bb0000;
+}
+
+.div_social h6 {
+  font-size: 11px;
+  color: gray;
+  display: block;
+}
+  
+
+`]
 })
 export class SocialInfluencerPage {
 

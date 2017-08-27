@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+   <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -7,6 +7,64 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content style="background:url('/assets/icon/alpaka-background-blur.png')">
+  <div class="smSubHeader">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <div class="profileDisplay owner"></div>
+      </ion-col>
+      <ion-col col-6>
+        <div class="profileDisplay company"></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div text-center class="smTextLarge">Sunder Pichai</div>
+  <p text-center class="smTextSmall">Google, CEO</p>
+  <div text-center>
+    <ion-icon name="star" color="orange"></ion-icon>
+    <ion-icon name="star" color="orange"></ion-icon>
+    <ion-icon name="star" color="orange"></ion-icon>
+    <ion-icon name="star" color="orange"></ion-icon>
+    <ion-icon name="star" color="orange"></ion-icon>
+  </div>
+  </div>
 
+  <ion-card class="smRoundedCorner">
+    <ion-card-content>
+      <div class="smParagraph smTextSmall">
+        Google is an American multinational technology company that specializes in Internet-related services and products. These
+        include online advertising technologies, search, cloud computing, software, and hardware.
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-item>
+      <ion-icon item-start name="megaphone"></ion-icon>
+      <span>My Influencers</span>
+      <span item-end>30</span>
+    </ion-item>
+    <ion-item>
+      <ion-icon item-start name="code-working"></ion-icon>
+      <span>My Connections</span>
+      <span item-end>35</span>
+    </ion-item>
+    <ion-item>
+      <ion-icon item-start name="logo-usd"></ion-icon>
+      <span>My Payments</span>
+      <span item-end>$1000</span>
+    </ion-item>
+    <ion-item>
+      <ion-icon item-start name="pricetag"></ion-icon>
+      <span>Connection Requests</span>
+      <span item-end>20</span>
+    </ion-item>
+  </ion-list>
+  <div padding>
+    <button  ion-button block color="danger">
+      <ion-icon name="power" item-start> </ion-icon>
+      Logout
+    </button>
+  </div>
 </ion-content>

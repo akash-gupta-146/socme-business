@@ -19,7 +19,7 @@
     background-size:cover;
 }
 .sidebar-background{
-    background: url('/assets/icon/alpaka-background-big.png');
+    background: url('/assets/icon/alpaka-background-black.png');
     background-size:cover;
 }
 .sidebar-top{
@@ -28,9 +28,50 @@
 }
 
 // Ionic style changes
-
+h2{
+    color:black !important;
+}
 // End of iconic styles
 
-// Home styles by nidhi
+//Text styles
+.smTextLarge{
+    font-size:16px !important;
+}
+.smTextMedium{
+    font-size:14px !important;
+}
+.smTextSmall{
+    font-size: 12px !important;
+}
+.smTextXSmall{
+    font-size: 10px !important;
+}
 
-    // end of home styles
+.smParagraph{
+    white-space:pre-line;
+}
+
+
+// End of text styles
+
+// ShapeStyles
+.smRoundedCorner{
+    border-radius: 10px;
+}
+.smSubHeader{
+    box-shadow: 0px 0px 12px black;
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+
+.smCircleAvatar{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin-top:10px;
+}
+.smCenter{
+    display: block;
+    margin:auto;
+}
+// End of shape style

@@ -17,6 +17,12 @@ import { NavController } from 'ionic-angular';
     background:#2f7b15;
     color:white;
   }
+  ion-card-header{
+    background:orange;
+  }
+  ion-item{
+    font-size:12px !important;
+  }
   `]
 })
 export class PremiumPage {

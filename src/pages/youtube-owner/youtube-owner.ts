@@ -6,12 +6,11 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'youtube-owner.html',
   styles: [`
   
-    .div_youtube span {
+    .div_youtube img {
       position: relative;
       display: inline-block;
       width: 100px;
       height: 100px;
-      background-image: url("/assets/icon/video.png");
       background-size: contain;
       background-repeat: no-repeat;
     }

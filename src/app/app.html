@@ -1,17 +1,19 @@
 <ion-menu [content]="content">
   <ion-header>
-    <ion-toolbar color="transclucent" style="height:140px;    box-shadow: 0px 2px 15px grey;">
+    <ion-toolbar color="transparent" class="sidebar-header" style="">
       <div>
-        <img style="display:block; margin:auto;" src="https://www.shareicon.net/download/2015/06/25/59723_male_256x256.png" height="50px" width="50px">
+        <img class="smCircleAvatar smCenter" src="https://www.thefamouspeople.com/profiles/images/sundar-pichai-1.jpg">
       </div>
       <div text-center>
-        <b style="color:black">Business Owner</b>
+        <b>Business Owner</b>
+        <br><b>Sunder Pichai</b>
       </div>
     </ion-toolbar>
   </ion-header>
     <ion-content class="sidebar-background">
     <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" style="background: rgba(255, 255, 255, 0.52);">
+      <button ion-item menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" class="smTextMedium sidebar-button">
+        <ion-icon name="{{p.icon}}" item-left></ion-icon>
         {{p.title}}
       </button>
     </ion-list>

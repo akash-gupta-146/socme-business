@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+   <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -7,6 +7,74 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content style="background:url('/assets/icon/alpaka-background-blur.png')">
+  <div text-center>
+      <img class="smCircleAvatar" src="https://pbs.twimg.com/profile_images/1186488413/Vince_Formal_profile_linkedin.jpg">
+      <b><div class="smTextLarge" text-center>Vince Kohler</div></b>
+      <div class="smTextSmall" text-center>Sun InfoTech, CEO</div>
+      <div class="star-rating">
+        <ion-icon name="star" color="orange"></ion-icon>
+        <ion-icon name="star" color="orange"></ion-icon>
+        <ion-icon name="star" color="orange"></ion-icon>
+        <ion-icon name="star" color="orange"></ion-icon>
+        <ion-icon name="star" color="dark"></ion-icon>
+      </div>
+  
+      <ion-grid>
+        <ion-row>
+          <ion-col col-4>
+            <button ion-button round small outline icon-left color="green" style="width: 95%;background:white">
+              <ion-icon name="add"></ion-icon>
+              Accept
+          </button>
+          </ion-col>
+          <ion-col col-4>
+            <button ion-button round small outline icon-left color="cyan" style="width: 95%;background:white">
+                <ion-icon name="chatbubbles"></ion-icon>
+                Message
+              </button>
+          </ion-col>
+          <ion-col col-4>
+            <button ion-button round small outline icon-left color="indigo" style="width: 95%;background:white">
+                <ion-icon name="logo-usd"></ion-icon>
+                History
+              </button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  
+    <ion-list>
+      <ion-item>
+        <ion-icon name="stats" color="indigo" item-start></ion-icon>
+        <span class="smTextMedium"><b>Company</b></span>
+        <span item-end class="smTextMedium">Socme</span>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="logo-facebook" color="facebook" item-start></ion-icon>
+        <span class="smTextMedium">5000 Followers</span>
+        <span item-end class="smTextMedium">20 posts/day</span>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="logo-twitter" color="twitter" item-start></ion-icon>
+        <span class="smTextMedium">1000 Followers</span>
+        <span item-end class="smTextMedium">10 tweets/day</span>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="logo-youtube" color="youtube" item-start></ion-icon>
+        <span class="smTextMedium">1000 Subscribers</span>
+        <span item-end class="smTextMedium">2 videos/day</span>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="contacts" color="ionic" item-start></ion-icon>
+        <span class="smTextMedium"><b>Connections</b></span>
+        <span item-end class="smTextMedium">7470</span>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="logo-usd" color="green" item-start></ion-icon>
+        <span class="smTextMedium"><b>Connection Fee</b></span>
+        <span item-end class="smTextMedium">$24</span>
+      </ion-item>
+    </ion-list>
 
 </ion-content>

@@ -3,7 +3,12 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'social-influencer-detail',
-  templateUrl: 'social-influencer-detail.html'
+  templateUrl: 'social-influencer-detail.html',
+  styles: [`
+
+
+
+  `]
 })
 export class SocialInfluencerDetailPage {
 

@@ -9,7 +9,7 @@ import { NavController } from 'ionic-angular';
     margin: 12px auto;
     border-radius: 2px;
     // border: 1px solid #9E9E9E;
-    height: 225px;
+    height: 200px;
     // width: calc(100% - 24px);
     // font-size: 1.4rem;
     // background: #f9fdff;
@@ -18,7 +18,6 @@ import { NavController } from 'ionic-angular';
     position: relative;
     text-align: center;
     font-size: 14px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .div_parent .div_child {
@@ -29,34 +28,24 @@ import { NavController } from 'ionic-angular';
     text-align: center;
 }
 
-.div_parent .div_child span{
+.div_parent .div_child img{
     display: inline-block;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url("/assets/icon/nidhi.jpg");
-    margin-top: 35px;
     background-repeat: no-repeat;
+    margin-top:10px;
 }
 
-.div_child h5 {
-    font-size: 13px !important;
-    font-style: italic !important;
-}
 
-ion-col span{
+ion-col img{
     display: inline-block;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url("/assets/icon/nidhi.jpg");
     margin-top: 5px;
     background-repeat: no-repeat;
-}
-
-.star_rating ion-icon {
-    color: #2196F3;
-    font-size: 20px;
+    margin-top:10px;
 }
 
 .div_social {
@@ -78,10 +67,6 @@ ion-col span{
 
 .div_social ion-icon:nth-child(3) {
     color: #bb0000;
-}
-
-.div_company_content {
-    text-align: center;
 }
 
 .div_social h6 {
