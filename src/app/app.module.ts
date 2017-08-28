@@ -28,6 +28,8 @@ import { RequestDetailPage } from "../pages/request-detail/request";
 import { PremiumPage } from "../pages/premium/premium";
 import { RatingPage } from "../pages/rating/rating";
 import { RateFormPage } from "../pages/rate-form/rate-form";
+import { SocialManagerDetailPage } from "../pages/social-manager-detail/social-manager-detail";
+import { MessageListPage } from "../pages/message-list/message-list";
 
 @NgModule({
   declarations: [
@@ -40,9 +42,11 @@ import { RateFormPage } from "../pages/rate-form/rate-form";
     CompanyDetailPage,
     IndividualPage,
     SocialManagerPage,Tab1,Tab2,
+    SocialManagerDetailPage ,
     YoutubeOwnerPage,
     MatchesPage,
     MessagesPage,
+    MessageListPage,
     PaymentGatewayPage,
     PaymentHistoryPage,
     ProfilePage,
@@ -67,9 +71,11 @@ import { RateFormPage } from "../pages/rate-form/rate-form";
     CompanyDetailPage,
     IndividualPage,
     SocialManagerPage,Tab1,Tab2,
+    SocialManagerDetailPage ,
     YoutubeOwnerPage,
     MatchesPage,
     MessagesPage,
+    MessageListPage,
     PaymentGatewayPage,
     PaymentHistoryPage,
     ProfilePage,

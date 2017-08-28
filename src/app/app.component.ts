@@ -24,6 +24,8 @@ import { RequestDetailPage } from "../pages/request-detail/request";
 import { PremiumPage } from "../pages/premium/premium";
 import { RatingPage } from "../pages/rating/rating";
 import { RateFormPage } from "../pages/rate-form/rate-form";
+import { SocialManagerDetailPage } from "../pages/social-manager-detail/social-manager-detail";
+import { MessageListPage } from "../pages/message-list/message-list";
 
 @Component({
   templateUrl: 'app.html',
@@ -55,11 +57,14 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home' , component: HomePage, icon:'home'},
-      { title: 'Social Influencer', component: SocialInfluencerPage, icon: 'contacts' },
-      { title: 'Social Influencer Detail', component: SocialInfluencerDetailPage, icon: 'contacts' },
+      { title: 'Social Managers', component: SocialManagerPage , icon: 'contacts' },
+      { title: 'Social Manager Details', component: SocialManagerDetailPage  , icon: 'contacts' },      
+      { title: 'Social Influencer', component: SocialInfluencerPage, icon: 'contact' },
+      { title: 'Social Influencer Detail', component: SocialInfluencerDetailPage, icon: 'contact' },
       { title: 'Youtube Owners', component: YoutubeOwnerPage, icon: 'logo-youtube' },      
-      { title: 'Youtube Owner Details', component: YoutubeOwnerDetailPage, icon: 'logo-youtube' }, 
-      { title: 'Messaging', component: MessagesPage, icon: 'mail' },
+      { title: 'Youtube Owner Details', component: YoutubeOwnerDetailPage, icon: 'logo-youtube' },
+      { title: 'Messaging', component: MessageListPage, icon: 'mail' }, 
+      { title: 'Messages', component: MessagesPage, icon: 'mail' },
       { title: 'Requests', component: RequestPage, icon: 'person-add' }, 
       { title: 'Requests Details', component: RequestDetailPage, icon: 'person-add' }, 
       { title: 'Rate', component: RatingPage, icon: 'star-half' },  
@@ -69,7 +74,6 @@ export class MyApp {
       { title: 'Profile', component: ProfilePage, icon: 'person' },      
       // { title: 'List', component: ListPage },
       // { title: 'Company Details', component: CompanyDetailPage },
-      // { title: 'Social Managers', component: SocialManagerPage },
       // { title: 'Individual', component: IndividualPage },
       // { title: 'Matches', component: MatchesPage },
       // { title: 'Payment Gateway', component: PaymentGatewayPage },
