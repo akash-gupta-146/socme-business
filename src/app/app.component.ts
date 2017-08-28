@@ -26,6 +26,7 @@ import { RatingPage } from "../pages/rating/rating";
 import { RateFormPage } from "../pages/rate-form/rate-form";
 import { SocialManagerDetailPage } from "../pages/social-manager-detail/social-manager-detail";
 import { MessageListPage } from "../pages/message-list/message-list";
+import { RatingViewPage } from "../pages/rating-view/rating-view";
 
 @Component({
   templateUrl: 'app.html',
@@ -58,7 +59,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home' , component: HomePage, icon:'home'},
       { title: 'Social Managers', component: SocialManagerPage , icon: 'contacts' },
-      { title: 'Social Manager Details', component: SocialManagerDetailPage  , icon: 'contacts' },      
+      { title: 'Social Manager Details', component: SocialManagerDetailPage  , icon: 'contacts' },  
+      { title: 'Social Manager Rating', component: RatingViewPage, icon: 'star-half' },            
       { title: 'Social Influencer', component: SocialInfluencerPage, icon: 'contact' },
       { title: 'Social Influencer Detail', component: SocialInfluencerDetailPage, icon: 'contact' },
       { title: 'Youtube Owners', component: YoutubeOwnerPage, icon: 'logo-youtube' },      

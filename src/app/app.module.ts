@@ -30,6 +30,7 @@ import { RatingPage } from "../pages/rating/rating";
 import { RateFormPage } from "../pages/rate-form/rate-form";
 import { SocialManagerDetailPage } from "../pages/social-manager-detail/social-manager-detail";
 import { MessageListPage } from "../pages/message-list/message-list";
+import { RatingViewPage } from "../pages/rating-view/rating-view";
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { MessageListPage } from "../pages/message-list/message-list";
     RequestDetailPage ,
     PremiumPage,
     RatingPage,
-    RateFormPage
+    RateFormPage,
+    RatingViewPage
   ],
   imports: [
     BrowserModule,
@@ -83,7 +85,8 @@ import { MessageListPage } from "../pages/message-list/message-list";
     RequestDetailPage,
     PremiumPage,
     RatingPage,
-    RateFormPage
+    RateFormPage,
+    RatingViewPage
   ],
   providers: [
     StatusBar,
