@@ -4,7 +4,10 @@ import { Tab1 } from './tab1-page';
 import { Tab2 } from './tab2-page';
 @Component({
   selector: 'social-manager',
-  templateUrl: 'social-manager.html'
+  templateUrl: 'social-manager.html',
+  styles: [`
+
+`]
 })
 export class SocialManagerPage {
   tab1: any;
