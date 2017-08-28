@@ -8,59 +8,42 @@
 </ion-header>
 
 <ion-content style="background:url('/assets/icon/alpaka-background-blur.png')">
-  <!-- <div class="div_social">
-    <span>
-      <h6>Hangouts</h6>
-    </span>
-    <span>
-      <h6>WhatsApp</h6>
-    </span>
-    <span>
-      <h6>Skype</h6>
-    </span>
-    <span>
-      <h6>Messenger</h6>
-    </span>
-    <span>
-      <h6>Viber</h6>
-    </span>
-  </div> -->
   <div id="mobile">
       <section id="chat-section">
         <section class="chat">
           <div class="chat-face"><img class="chat-face" src="https://randomuser.me/api/portraits/men/64.jpg"></div>
-          <div class="chat-body">
+          <div class="chat-body arrow_box">
             A friend sent this awesome message to you! Huzzah!
-            <span class="time">8:30AM</span>
+            <span class="time1"><ion-icon name="ios-time-outline"></ion-icon> 8:30AM</span>
           </div>
           <div class="chat-space"></div>
         </section>
   
         <section class="chat">
           <div class="chat-space"></div>
-          <div class="chat-body body2">
+          <div class="chat-body body2 arrow_box2">
             You didn't send a reply until an hour later! Hopefully you get a quick response from your friend! Your friend has read this message as indicated by the colored-in circle next to the timestamp.
-            <span class="time">9:30AM <i class="fa fa-circle green" aria-hidden="true"></i></span>
+            <span class="time2"> <ion-icon name="ios-time-outline"></ion-icon> 9:30AM </span>
           </div>
-          <div class="chat-face face2"><img src="https://www.thefamouspeople.com/profiles/images/sundar-pichai-1.jpg"></div>
+          <div class="chat-face face2"><img class="face2" src="https://www.thefamouspeople.com/profiles/images/sundar-pichai-1.jpg"></div>
         </section>
        
         <section class="chat">
           <div class="chat-space"></div>
-          <div class="chat-body body2">
+          <div class="chat-body body2 arrow_box2">
             Seems like there's no reply yet. Let's send another message. Your friend hasn't seen this one, but it has been sent as indicated by the dot in the circle.
-            <span class="time">9:48AM <i class="fa fa-dot-circle-o orange" aria-hidden="true"></i></span>
+            <span class="time3"><ion-icon name="ios-time-outline"></ion-icon> 9:48AM</span>
           </div>
-          <div class="chat-face face2"><img src="https://www.thefamouspeople.com/profiles/images/sundar-pichai-1.jpg"></div>
+          <div class="chat-face face2"><img class="face2" src="https://www.thefamouspeople.com/profiles/images/sundar-pichai-1.jpg"></div>
         </section>
        
         <section class="chat">
           <div class="chat-space"></div>
-          <div class="chat-body body2">
+          <div class="chat-body body2 arrow_box2">
             Hrm, are you connected to the internet? This message hasn't been sent yet.
-            <span class="time">10:27AM <i class="fa fa-circle-o" aria-hidden="true"></i></span>
+            <span class="time4"><ion-icon name="ios-time-outline"></ion-icon> 10:27AM </span>
           </div>
-          <div class="chat-face face2"><img src="https://www.thefamouspeople.com/profiles/images/sundar-pichai-1.jpg"></div>
+          <div class="chat-face face2"><img class="face2" src="https://www.thefamouspeople.com/profiles/images/sundar-pichai-1.jpg"></div>
         </section>
         
       </section>
@@ -69,6 +52,8 @@
 <ion-footer>
     <section id="input-bar">
         <textarea rows="2" id="sendText" name="sendText" placeholder="Write a message."></textarea>
-        <button class="button">send</button> 
+        <button class="button1">
+          <ion-icon name="paper-plane"></ion-icon>  
+        </button> 
       </section>
 </ion-footer>

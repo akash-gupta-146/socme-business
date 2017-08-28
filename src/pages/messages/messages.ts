@@ -73,19 +73,29 @@ import { NavController } from 'ionic-angular';
   
   .chat {
     display: flex;
-    padding: 5px 10px; 
+    margin: 10px auto 25px;
   }
   
   .chat-face > img {
     background: #80DEEA;
     height: 50px;
     width: 50px; 
+    border-radius: 50%;
   }
-  .face2 {
-    background: #FF7043;
-    height: 50px; 
-    width: 50px;
+
+  img.chat-face {
+    margin-right: 15px;
   }
+
+  img.face2 {
+    margin-left: 15px;
+    margin-right: 7px;
+  }
+
+  // .face2 {
+  //   height: 50px; 
+  //   width: 50px;
+  // }
   .chat-body {
     background: #E0F7FA;
     flex: 2;
@@ -105,7 +115,7 @@ import { NavController } from 'ionic-angular';
     background: #FBE9E7;
   }
   .chat-space {
-    width: 30px; 
+    width: 15px; 
   }
   
   /* colors */
@@ -120,6 +130,112 @@ import { NavController } from 'ionic-angular';
     padding-right: 10px;
   }
 
+  .arrow_box {
+	position: relative;
+	background: #8abfb1;
+	border: 3px solid #658aba;
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(138, 191, 177, 0);
+	border-right-color: #8abfb1;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.arrow_box:before {
+	border-color: rgba(101, 138, 186, 0);
+	border-right-color: #658aba;
+	border-width: 14px;
+	margin-top: -14px;
+}
+
+.arrow_box2 {
+	position: relative;
+	background: #9abf93;
+	border: 3px solid #6a736d;
+}
+.arrow_box2:after, .arrow_box2:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box2:after {
+	border-color: rgba(154, 191, 147, 0);
+	border-left-color: #9abf93;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.arrow_box2:before {
+	border-color: rgba(106, 115, 109, 0);
+	border-left-color: #6a736d;
+	border-width: 14px;
+	margin-top: -14px;
+}
+
+.time1 {
+  display: inline-block;
+    position: absolute;
+    top: 52px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.time2 {
+  display: inline-block;
+    position: absolute;
+    top: 109px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.time3 {
+  display: inline-block;
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.time4 {
+  display: inline-block;
+    position: absolute;
+    top: 66px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+ion-icon {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button1 {
+    border: none;
+    background: #00B8D4;
+    color: #e6ecde;
+    padding: 20px;
+}
   `]
 })
 export class MessagesPage {
