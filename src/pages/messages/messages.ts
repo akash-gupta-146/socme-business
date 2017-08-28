@@ -30,7 +30,7 @@ import { NavController } from 'ionic-angular';
     bottom: 0px; 
     width: 100%;
     display: flex;
-   
+    height: 50px;
     justify-content: space-between;
   }
   
@@ -49,7 +49,7 @@ import { NavController } from 'ionic-angular';
   #sendText {
     flex: 2;
     border: 0px; 
-    font-size: .9em;
+    font-size: 16px;
     padding: 10px;  
     overflow: hidden;
     resize: none;
@@ -90,6 +90,7 @@ import { NavController } from 'ionic-angular';
   img.face2 {
     margin-left: 15px;
     margin-right: 7px;
+    margin-top: 25px;
   }
 
   // .face2 {
@@ -133,7 +134,7 @@ import { NavController } from 'ionic-angular';
   .arrow_box {
 	position: relative;
 	background: #8abfb1;
-	border: 3px solid #658aba;
+	border: 2px solid #658aba;
 }
 .arrow_box:after, .arrow_box:before {
 	right: 100%;
@@ -161,8 +162,8 @@ import { NavController } from 'ionic-angular';
 
 .arrow_box2 {
 	position: relative;
-	background: #9abf93;
-	border: 3px solid #6a736d;
+	background: #5096bf;
+	border: 2px solid #6a736d;
 }
 .arrow_box2:after, .arrow_box2:before {
 	left: 100%;
@@ -176,16 +177,16 @@ import { NavController } from 'ionic-angular';
 }
 
 .arrow_box2:after {
-	border-color: rgba(154, 191, 147, 0);
-	border-left-color: #9abf93;
+	border-color: rgba(80, 150, 191, 0);
+	border-left-color: #5096bf;
 	border-width: 10px;
 	margin-top: -10px;
 }
 .arrow_box2:before {
 	border-color: rgba(106, 115, 109, 0);
 	border-left-color: #6a736d;
-	border-width: 14px;
-	margin-top: -14px;
+	border-width: 13px;
+	margin-top: -13px;
 }
 
 .time1 {
@@ -218,7 +219,7 @@ import { NavController } from 'ionic-angular';
 .time4 {
   display: inline-block;
     position: absolute;
-    top: 66px;
+    top: 94px;
     left: 0px;
     font-size: 12px;
     font-weight: 600;
