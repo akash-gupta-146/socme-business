@@ -5,6 +5,19 @@ import { NavController } from 'ionic-angular';
   selector: 'profile',
   templateUrl: 'profile.html',
   styles: [`
+
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
+
+    .swiper_color {
+  color: #007aff !important;
+}
+
+.btn44 {
+  background: #007aff !important;
+  color: #fff;
+}
     .profileDisplay{
       background:blue;
       border-radius:50%;
