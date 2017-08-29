@@ -9,6 +9,10 @@ import { NavController } from 'ionic-angular';
   .apply_color {
       background-color: #b2dff4 !important;
     }
+
+    .swiper_color {
+  color: #007aff !important;
+}
       .div_parent {
     margin: 12px auto;
     border-radius: 2px;
