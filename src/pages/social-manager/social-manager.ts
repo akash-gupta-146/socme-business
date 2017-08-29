@@ -6,7 +6,9 @@ import { Tab2 } from './tab2-page';
   selector: 'social-manager',
   templateUrl: 'social-manager.html',
   styles: [`
-
+.apply_color {
+      background-color: #b2dff4 !important;
+    }
 `]
 })
 export class SocialManagerPage {
