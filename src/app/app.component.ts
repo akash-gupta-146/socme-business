@@ -31,6 +31,10 @@ import { RatingViewPage } from "../pages/rating-view/rating-view";
 @Component({
   templateUrl: 'app.html',
   styles: [`
+
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
   .sidebar-button{
     background: rgba(105, 105, 105, 0.35);
     color: white;
