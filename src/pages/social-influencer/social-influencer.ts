@@ -74,7 +74,14 @@ ion-col img{
   color: gray;
   display: block;
 }
-  
+
+.apply_color {
+      background-color: #b2dff4 !important;
+    }
+
+ .swiper_color {
+  color: #007aff !important;
+} 
 
 `]
 })
