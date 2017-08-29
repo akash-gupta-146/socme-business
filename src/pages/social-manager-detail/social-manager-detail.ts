@@ -5,7 +5,9 @@ import { NavController } from 'ionic-angular';
   selector: 'social-manager-detail',
   templateUrl: 'social-manager-detail.html',
   styles: [`
-
+.apply_color {
+      background-color: #b2dff4 !important;
+    }
 
   ion-col img{
     display: inline-block;
