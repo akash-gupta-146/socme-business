@@ -5,6 +5,9 @@ import { NavController } from 'ionic-angular';
   selector: 'request',
   templateUrl: 'request.html',
   styles:[`
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
   
       .social-influ-main {
         text-align: center;
