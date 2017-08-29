@@ -5,6 +5,10 @@ import { NavController } from 'ionic-angular';
   selector: 'rating',
   templateUrl: 'rating.html',
   styles: [`
+
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
       .div_parent {
     margin: 12px auto;
     border-radius: 2px;
