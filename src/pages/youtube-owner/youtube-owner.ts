@@ -55,6 +55,14 @@ import { NavController } from 'ionic-angular';
       font-weight: 800;
     }
 
+    .apply_color {
+      background-color: #b2dff4 !important;
+    }
+
+    .swiper_color {
+  color: #007aff !important;
+}
+
   `]
 })
 export class YoutubeOwnerPage {
