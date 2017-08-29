@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   template: `
-  <ion-content>
+  <ion-content class="apply_color">
   <ion-card>
   <div class="div_company">
     <ion-grid>
