@@ -237,6 +237,10 @@ ion-icon {
     color: #e6ecde;
     padding: 20px;
 }
+
+.apply_color {
+      background-color: #b2dff4 !important;
+    }
   `]
 })
 export class MessagesPage {
