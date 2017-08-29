@@ -23,6 +23,15 @@ import { NavController } from 'ionic-angular';
   ion-item{
     font-size:12px !important;
   }
+
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
+
+    .btn33 {
+  background: #007aff !important;
+  color: #fff;
+}
   `]
 })
 export class PremiumPage {
